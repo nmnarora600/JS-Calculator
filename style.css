@@ -1,0 +1,41 @@
+
+/* setup background gradient */
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 101, 175),
+    rgb(0, 255, 110)
+  );
+}
+
+/* Formating the calculator box */
+.col-md-6 {
+  margin-top: 160px;
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 101, 175),
+    rgb(0, 255, 110)
+  );
+}
+
+/* formatting the input buttons */
+input[type="button"] {
+  width: 100%;
+  background-color: rgba(8, 112, 53, 0.596);
+  color: rgb(0, 25, 58);
+  font-weight: bolder;
+  border: 1px solid black;
+}
+
+/* formatting the textarea */
+input[type="text"] {
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* formatting the heading */
+h1 {
+  font-weight: bolder !important;
+  margin-top: 15px;
+  color: black;
+}
